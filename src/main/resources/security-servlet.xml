@@ -20,6 +20,7 @@
 		<logout logout-success-url="/" invalidate-session="true" />
 		<access-denied-handler error-page="/403"/>
 		
+		<!-- To enable csrf token please remove below line from comment -->
 		<!-- <csrf/> -->
 		
 	</http>

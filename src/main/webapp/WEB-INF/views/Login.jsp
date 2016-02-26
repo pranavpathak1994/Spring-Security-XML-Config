@@ -73,7 +73,7 @@
 										<input class="form-control" placeholder="Password"
 											name="password" type="password" value=""  required="required">
 									</div>
-
+									<!-- if you enable csrf token in spring security then remove below line from comment. -->
 									<%-- <input type="hidden" name="${_csrf.parameterName}"
 										value="${_csrf.token}" /> --%>
 
